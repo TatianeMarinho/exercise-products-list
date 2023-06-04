@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from '../App';
 import Product from '../components/Product';
-import ProductsList from '../components/ProductsList';
+import ProductsList from '../components/ProductList';
 import productsArray from '../data';
 
 describe('3 - Renderize uma lista com as informações de cada produto', () => {

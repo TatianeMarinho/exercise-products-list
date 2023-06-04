@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from '../App';
-import ProductsList from '../components/ProductsList';
+import ProductsList from '../components/ProductList';
 
 describe('2 - Crie o componente `<ProductsList />`', () => {
   it('O componente `<ProductsList />` renderiza a tag `h1` com o texto `Lista de produtos`', () => {

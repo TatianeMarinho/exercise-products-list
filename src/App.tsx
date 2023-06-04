@@ -1,8 +1,20 @@
+import ProductList from './components/ProductList';
+import products from './data';
+import Product from './components/Product';
+
 import './App.css';
 
 function App() {
   return (
-    <h1>Exercise</h1>
+    <main className="App">
+      <ProductList>
+        {
+          products.map((product) => {
+            return <Product key={ product.id } productInfo={ product } />;
+          })
+        }
+      </ProductList>
+    </main>
   );
 }
 
