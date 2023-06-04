@@ -5,9 +5,7 @@ type ProductListProps = {
 function ProductList({ children }: ProductListProps) {
   return (
     <section>
-      <h1>
-        Lista de produtos
-      </h1>
+      <h1>Lista de produtos</h1>
       <ul className="productslist">
         {children}
       </ul>
