@@ -2,7 +2,7 @@ type ProductListProps = {
   children: React.ReactNode;
 };
 
-function ProductList({ children }: ProductListProps) {
+function ProductsList({ children }: ProductListProps) {
   return (
     <section>
       <h1>Lista de produtos</h1>
@@ -13,4 +13,4 @@ function ProductList({ children }: ProductListProps) {
   );
 }
 
-export default ProductList;
+export default ProductsList;

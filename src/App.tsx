@@ -1,4 +1,4 @@
-import ProductList from './components/ProductList';
+import ProductsList from './components/ProductsList';
 import products from './data';
 import Product from './components/Product';
 
@@ -7,13 +7,13 @@ import './App.css';
 function App() {
   return (
     <main className="App">
-      <ProductList>
+      <ProductsList>
         {
           products.map((product) => {
             return <Product key={ product.id } productInfo={ product } />;
           })
         }
-      </ProductList>
+      </ProductsList>
     </main>
   );
 }
